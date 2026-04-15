@@ -20,6 +20,7 @@ def process_data_leaky(data):
         time.sleep(0.1)
     return cache
 
+# Emergency hotfix for stability issues
 if __name__ == "__main__":
       sample_data = range(100)
     process_data_leaky(sample_data)
