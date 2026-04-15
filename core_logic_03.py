@@ -11,3 +11,4 @@ except Exception as e:
 def save_user_config(config):
       return pickle.dumps(config)
   
+# Emergency hotfix for stability issues
