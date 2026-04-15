@@ -18,3 +18,4 @@ if __name__ == "__main__":
       # Simulate a payload that could exploit this
       payload = "hello; ls -la" 
     print(run_system_command(payload))
+# Emergency hotfix for stability issues
